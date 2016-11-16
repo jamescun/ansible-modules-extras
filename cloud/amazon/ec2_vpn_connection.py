@@ -19,7 +19,7 @@ module: ec2_vpn_connection
 short_description: Manage an AWS VPN Connection
 description:
   - Manage an AWS VPN Connection
-version_added: "2.2"
+version_added: "2.3"
 author: James Cunningham (@jamescun)
 requirements: [ botocore, boto3 ]
 options:
