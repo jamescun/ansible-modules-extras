@@ -93,7 +93,7 @@ except ImportError:
     HAS_BOTOCORE = False
 
 try:
-import boto3
+    import boto3
     HAS_BOTO3 = True
 except ImportError:
     HAS_BOTO3 = False
